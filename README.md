@@ -34,26 +34,26 @@ Como se trata de um módulo inicial, a estrutura é simples, contendo apenas o a
 ```text
 /
 ├── README.md
-└── Simulacao.java
+└── SimuladordeFilaSimples.java
 ```
 
 ## 🚀 Como Executar
 Siga os passos abaixo para compilar e rodar a simulação no seu terminal:
 
-1. Clone o repositório ou faça o download do arquivo `Simulacao.java`.
+1. Clone o repositório ou faça o download do arquivo `SimuladordeFilaSimples.java`.
 2. Abra o terminal e navegue até o diretório onde o arquivo está localizado.
 3. Compile o código Java com o seguinte comando:
    ```bash
-   javac Simulacao.java
+   javac SimuladordeFilaSimples.java
    ```
-4. Após a compilação, um arquivo `Simulacao.class` será gerado. Execute a simulação com o comando:
+4. Após a compilação, um arquivo `SimuladordeFilaSimples.class` será gerado. Execute a simulação com o comando:
    ```bash
-   java Simulacao
+   java SimuladordeFilaSimples
    ```
 O resultado de ambas as simulações (G/G/1/5 seguida por G/G/2/5) será impresso diretamente no console.
 
 ## 🛠️ Pipeline de Execução
-O ciclo de vida da execução no arquivo `Simulacao.java` segue os seguintes passos lógicos:
+O ciclo de vida da execução no arquivo `SimuladordeFilaSimples.java` segue os seguintes passos lógicos:
 
 1. **Inicialização**: A função `main` orquestra as duas simulações, chamando a função `runSimulation` passando o número de servidores (1 ou 2) e a capacidade da fila (5).
 2. **Geração de Aleatórios**: O algoritmo pré-gera um total de 100.000 números aleatórios, dividindo-os igualmente (50.000) para calcular os tempos entre as chegadas e os tempos de atendimento.
