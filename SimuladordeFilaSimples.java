@@ -2,7 +2,7 @@ import java.util.PriorityQueue;
 import java.util.Random;
 import java.util.HashMap;
 
-public class Simulacao{
+public class SimuladordeFilaSimples{
 
     private static final int NUM_RANDOMS = 100000;
     private static final int RANDOM_NUMBERS_PER_TYPE = NUM_RANDOMS / 2;
